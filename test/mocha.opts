@@ -1,0 +1,6 @@
+--timeout 999999
+--ui tdd
+--full-trace
+--recursive
+--require babel-register
+--reporter mocha-multi --reporter-options spec=-,mocha-allure-reporter=-
